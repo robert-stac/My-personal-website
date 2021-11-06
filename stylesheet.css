@@ -1,0 +1,216 @@
+/*******************************************************
+****************PERSONAL WEBSITE STYLESHEET*************
+********************************************************/
+
+.main-btn{
+    background-color: rgb(255, 49, 49);
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 1cm;
+    font-size: 20px;
+    height: 40px;
+}
+.main-btn:hover {
+    background-color: rgb(74, 74, 252);
+    color: white;
+}
+.navlink {
+    color: rgb(255, 49, 49);
+    padding: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+body {
+    color: wheat;
+    margin: 0;
+    overflow-x: hidden;
+}
+.h-1{
+    color: rgb(255, 49, 49);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+}
+.h-2{
+    color: black;
+    font-size: 55px;
+    font-family: Algerian;
+    font-weight: bolder;
+}
+h2 span {
+    color: rgb(74, 74, 252);
+}
+.p-1{
+    font-size: 25px;
+    color: black;
+}
+.skills-bg {
+    margin-bottom: -14cm;
+}
+h3 span {
+    font-size: 15px;
+    font-family: Bodoni MT;
+}
+.prog {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    line-height: 50px;
+}
+.prog-grad {
+    background-image: linear-gradient(225deg, red, purple);
+    border-radius: 10px;
+}
+.prog-bg {
+    background-color: rgb(243, 150, 223);
+    border-radius: 10px;
+}
+
+.contain{
+	max-width: 100vw;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 35px;
+	margin: 0 auto;
+	padding: 40px 0;
+    margin-bottom: -14cm;
+    margin-top: 15cm;
+
+}
+.cad{
+	position: relative;
+	width: 300px;
+	height: 350px;
+	margin: 0 auto;
+	background: #000;
+	border-radius: 15px;
+	box-shadow: 0 25px 25px rgba(0, 0, 0, 0.753);
+}
+.face{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.face1{
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+    h2{
+        margin: 0;
+        padding: 0;
+    }
+    .java{
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .python{
+        background-color: #00fffc;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+.face2{
+    transition: 0.5s;
+    background-image: linear-gradient(
+    40deg,
+    purple 0%,
+        
+    rgb(255, 49, 49) 70%
+    );
+    border-radius: 15px;
+}
+    h2{
+        margin: 0;
+        padding: 0;
+        font-size: 5em;
+        color: #fff;
+        transition: 0.5s;
+        text-shadow: 0 2px 5px rgba(63, 247, 39, 0.267);
+        z-index: 10;
+    }
+    
+.cad:hover .face.face2{
+     height: 60px;
+}
+    h2{
+        font-size: 30px;
+    }
+
+.cont-act {
+    margin-left: 3cm;
+}
+
+.feel-p1 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial Black;
+}
+.feel-p2 {
+    font-size: 18px;
+    color: white;
+}
+.input-sht {
+    width: 48%;
+    float: left;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgba(132, 241, 236, 0.295);
+}
+.input-lng {
+    margin-left: 10px;
+    border-radius: 20px;
+    resize: none;
+    background-color: rgba(132, 241, 236, 0.295);
+}
+
+form{
+	padding: 20px;
+	border-radius: 10%;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 12cm;
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.486);
+	backdrop-filter: blur( 2px );
+	-webkit-backdrop-filter: blur( 4px );
+	color: rgba(255,255,255,0.8);
+}
+.send-btn {
+    background-color: rgb(45, 45, 209);
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.send-btn:hover {
+    background-color: rgb(255, 49, 49);
+}
+.email {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Footer section  */
+footer {
+	padding-bottom: 25px;
+	text-align: center;
+	margin: 0px;
+	color:rgb(8, 8, 8);
+	margin-top: 10em;
+    font-size: 20px;
+    font-family: monospace;
+}
+/* end footer section */
